@@ -22,11 +22,28 @@ namespace _2_CriandoVariaveis
             int varRecebeDouble1 = Convert.ToInt16(idade3);
 
 
+            String nome = "Lucas";
+            String nome2 = "Henrique";
 
 
+            bool verdadeiro = true;
+
+            if (verdadeiro == true) {
+
+                Console.Write("verdadeiro = true");
+
+            }
+
+
+            if (nome.Length < nome2.Length) {
+
+                Console.Write("\n"+  nome2 + "\n");
+            }
+
+
+            Console.WriteLine("\n" + nome + nome2);
             Console.WriteLine(varRecebeDouble1 + varRecebeDouble);
             
-
             Console.WriteLine("Executando projeto 2 - Criando Variveis");
             Console.WriteLine("Execução finalizada. tecle para continua!!");
             Console.ReadLine();
