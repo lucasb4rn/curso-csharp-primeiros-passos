@@ -10,6 +10,11 @@ namespace _1_PrimeiroProjeto
     {
         static void Main(string[] args)
         {
+            Console.Write("Olá Mundo!!");
+            Console.Write("\nAperte uma tecla para fechar a janela.");
+            Console.ReadLine();
+
+
         }
     }
 }
